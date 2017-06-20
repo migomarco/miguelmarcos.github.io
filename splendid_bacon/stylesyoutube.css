@@ -1,0 +1,35 @@
+
+body{
+  background-color: #f7dfa5;
+}
+
+h1{
+  color:#2390af;
+  font-family: 'Rubik Mono One', sans-serif;
+  font-size: 40px;
+}
+
+.bacon1 {
+    position:absolute;
+    left: 250px;
+    top: 45px;
+    z-index: -1;
+}
+.bacon2 {
+    position:absolute;
+    left: 900px;
+    top: 45px;
+    z-index: -1;
+}
+
+.yAPI {
+	position: absolute;
+	z-index: 3;
+	left: 400px;
+	top: 40px;
+}
+
+#results {
+	list-style: none;
+	text-decoration-style: none;
+}

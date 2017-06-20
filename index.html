@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+
+		<meta charset="utf-8">
+		<title>Project 3</title>
+		<link href="styles.css" rel="stylesheet">
+		<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+		
+
+		<link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
+
+	</head>
+	<body>
+
+	
+
+	<!-- 	<form>
+  			<input class="textbox" type="text" id="enteredText">
+  			<input type="submit" value="getvalue" id="textSubmit">
+  			
+  			
+  			
+		</form>
+ -->
+
+
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<script type="text/javascript">	
+
+		</script>
+
+
+
+
+
+
+
+
+
+
+		
+
+		<style type="text/css">
+
+			body {
+
+				margin: 0px;
+
+				padding: 0px;
+
+				height: 99%;
+
+			}
+
+			
+
+			input#setter {
+
+				left: -1000px;
+
+				position: absolute;
+
+			}
+
+			
+
+			.cursor {
+
+				
+
+				font-size: 50px;
+
+				background-color: #39FF14;
+
+				color: #39FF14;
+
+				position: relative;
+
+				font-family: 'VT323', monospace;
+
+				
+
+			}
+
+			
+
+			#terminal {
+
+				margin: 8px;
+
+				cursor: text;
+
+				height: 500px;
+
+                                border: 1px solid black;
+
+                                overflow: auto;
+
+			}
+
+			
+
+			#writer {
+
+				font-family: 'VT323', monospace;
+				font-size: 50px;
+
+				font-weight: bold;
+
+			}
+
+                        #getter {
+
+                                 margin: 5px;
+
+                        }
+
+
+             #error {
+
+				font-size: 50px;
+    			margin:12px;
+    			margin: left;
+    			color: #39FF14;
+}
+
+
+
+		</style>
+
+
+
+
+
+<h1>miguel_marcos_websites</h1>
+
+		<ul>
+		<li><a href="doors/index.html">doors</a></li>
+
+		<li><a href="hell_for_liberals/index.html">hell_for_liberals</a></li>
+
+		<li><a href="comic/page1.html">comics</a></li>
+
+		<li><a href="patience/index.html">patience</a></li>
+
+		<!-- <li><a href="typo/index.html">test</a></li> -->
+
+		</ul>
+
+		<ul>
+		
+		<li><a href="splendid_bacon/index.html">splendid_bacon</a></li>
+
+		<li><a href="worldmap/page1.html">world_map</a></li>
+
+		<li><a href="final/index.html">toilet_time</a></li>
+
+		<!-- <li><a href="toilet.pdf">toilet_wireframes</a></li> -->
+
+		</ul>
+		
+
+		
+		<div id="error"></div>
+		
+
+
+
+
+
+
+
+	<div id="terminal" onclick="$('setter').focus();">
+
+	<div class="user-panel main">
+	<form>
+		<input name="login" type="text" id="setter" onkeydown="writeit(this, event);moveIt(this.value.length, event)" onkeyup="writeit(this, event)" onkeypress="writeit(this, event);"></input>
+		<input type="submit" value="getvalue" id="textSubmit" onkeypress="myFunction(e);">
+	</form>
+	</div>
+
+		<div id="getter">
+
+			<span id="writer"></span><b class="cursor" id="cursor">B</b>
+
+		</div>
+
+	</div>
+
+
+
+
+
+
+
+
+
+	
+
+
+		<script src="scripts.js"></script>
+
+	</body>
+</html>
+
+
+
+
+
+

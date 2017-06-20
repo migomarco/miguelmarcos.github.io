@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="style.css">
+<html>
+   <head>
+       <meta charset="utf-8">
+       <meta name="viewport" content="initial-scale=.5, maximum-scale=.5, user-scalable=no, width=device-width minimum-scale=.5">
+       <title>Instagram API</title>
+       <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous
+       "></script>
+
+
+
+   </head>
+   <link href="https://fonts.googleapis.com/css?family=Fascinate|Rammetto+One|Rubik+Mono+One|Rubik+One" rel="stylesheet">
+   <body>
+
+   <h1 class="at"> @splendidbacon </h1>
+
+       <ul id="rudr_instafeed"></ul>
+
+       <script class="instagram" type="text/javascript">
+       var token = '4217925250.e916696.a06ea9ebde2541eb890f5c06a2957601', //place your personal token here
+       num_photos = 100;
+
+           $.ajax({
+           url: 'https://api.instagram.com/v1/users/self/media/recent',
+           dataType: 'jsonp',
+           type: 'GET',
+           data: {access_token: token, count: num_photos},
+           success: function(data){
+               console.log(data);
+               for( x in data.data ){
+                   $('ul').append('<li><img src="'+data.data[x].images.low_resolution.url+'"></li>');
+               }
+           },
+           error: function(data){
+               console.log(data);
+           }
+       });
+
+</script>
+
+<img src="unnamed.gif" class="bacon1" style="width:120px; height:90px">
+<img src="unnamed.gif" class="bacon2" style="width:120px; height:90px">
+
+   </body>
+
+   
+</html>

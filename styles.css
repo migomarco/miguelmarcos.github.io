@@ -1,0 +1,62 @@
+html{
+
+	font-family: 'VT323', monospace;
+	color: #39FF14;
+	background-color: black;
+    font-weight: bold;
+}
+
+a {
+	color: #39FF14;
+	margin-left: 40px;
+	font-size: 50px;
+    text-align: left;
+}
+
+h1 {
+	font-size: 50px;
+}
+
+
+
+ul {
+    display: block;
+    list-style-type: none;
+    margin: 0;
+    padding: 14px;
+    overflow: hidden;
+    width:100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.textbox{
+    color: transparent; 
+    background-color: transparent; 
+    border-color: transparent; 
+    font-family: 'VT323', monospace;
+    color: #39FF14;
+    width: 400px;
+    font-size: 50px;
+}
+
+#textSubmit{
+    color: transparent; 
+    background-color: transparent; 
+    border-color: transparent; 
+    cursor: default;
+}
+
+
+
+
+
+

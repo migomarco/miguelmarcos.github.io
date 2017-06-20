@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" onclick="play()">
+	<head>
+
+		<meta charset="utf-8">
+		<title>Project 3</title>
+		<link href="styles.css" rel="stylesheet">
+		<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+		<script src="underscore-min.js"></script>
+		<script src="collection.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Walter+Turncoat" rel="stylesheet">
+		
+
+	</head>
+	<body>
+
+
+
+        <audio id="audio" src="fart.mp3" ></audio>
+        <audio id="flush" src="flush.mp3" ></audio>
+
+
+
+
+	   <div id="controls">
+           <button class="dropbtn">sort by...</button>
+            <div id="sort">
+                <a id = "one" href="#">Number</a>
+                <a id = "two" href="#">Day</a>
+                <a id = "three" href="#">Duration</a>
+            </div>
+        </div>
+
+        <div id="controls2">
+            <button class="dropbtn2">filter by...</button>
+            <div id="filter">
+                <a id = "A" href="#">None</a>
+                <a id = "B" href="#">peeing</a>
+                <a id = "C" href="#">pooping</a>
+                
+            </div>
+        </div>
+
+        
+
+
+
+        <img src="toilet.png" class="toilet">
+        <img src="toilet_paper.png" class="toilet_paper">
+        <img src="toilet_paper.png" class="toilet_paper2">
+
+        <div class="about">
+            <h1>Miguel's toilet</h1>
+            <p>
+                Dear users,<br><br>
+                This websites indicates how long Miguel Marcos has spent in the bathroom releasing his feces or urine. This study has been recorded over a period of 25 days instead of 30, due to an unexcpected sickness near the end, which has caused him lose his ability to record his data for the last 5 days. <br><br>
+                yours fartly,<br>
+                Miguel's personal assistant. 
+            </p>
+        </div>
+
+        <div id="holder">
+        </div>
+
+
+
+
+		<script src="scripts.js"></script>
+
+	</body>
+</html>

@@ -1,0 +1,287 @@
+
+
+
+body{
+	background-color: #f7dfa5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bacon{
+	top: 85px;
+	left: 35px;
+	position: absolute;
+
+}
+.face{
+	
+		top: 100px;
+		left: 320px;
+		z-index: -2;
+		position: absolute;
+}
+
+.face1{
+	
+		top: 100px;
+		left: 190px;
+		z-index: -2;
+		position: absolute;
+}
+.face2{
+	
+		top: 175px;
+		left: 470px;
+		z-index: -2;
+		position: absolute;
+}
+.face3{
+	
+		top: 100px;
+		left: 470px;
+		z-index: -2;
+		position: absolute;
+}
+.face4{
+	
+		top: 100px;
+		left: 610px;
+		z-index: -2;
+		position: absolute;
+}
+.face5{
+	
+		top: 100px;
+		left: 750px;
+		z-index: -2;
+		position: absolute;
+}
+.face6{
+	
+		top: 100px;
+		left: 895px;
+		z-index: -2;
+		position: absolute;
+}
+.face7{
+	
+		top: 175px;
+		left: 50px;
+		z-index: -2;
+		position: absolute;
+}
+.face8{
+	
+		top: 175px;
+		left: 190px;
+		z-index: -2;
+		position: absolute;
+}
+.face9{
+	
+		top: 175px;
+		left: 610px;
+		z-index: -2;
+		position: absolute;
+}
+.face10{
+	
+		top: 175px;
+		left: 750px;
+		z-index: -2;
+		position: absolute;
+}
+.face11{
+	
+		top: 175px;
+		left: 320px;
+		z-index: -2;
+		position: absolute;
+}
+.face12{
+	
+		top: 250px;
+		left: 895px;
+		z-index: -2;
+		position: absolute;
+}
+.face13{
+	
+		top: 175px;
+		left: 900px;
+		z-index: -2;
+		position: absolute;
+}
+.face14{
+	
+		top: 250px;
+		left: 320px;
+		z-index: -2;
+		position: absolute;
+}
+.face15{
+	
+		top: 250px;
+		left: 190px;
+		z-index: -2;
+		position: absolute;
+}
+.face16{
+	
+		top: 250px;
+		left: 610px;
+		z-index: -2;
+		position: absolute;
+}
+.face17{
+	
+		top: 250px;
+		left: 470px;
+		z-index: -2;
+		position: absolute;
+}
+.face18{
+	
+		top: 250px;
+		left: 50px;
+		z-index: -2;
+		position: absolute;
+}
+.face19{
+	
+		top: 250px;
+		left: 750px;
+		z-index: -2;
+		position: absolute;
+}
+
+
+.box {
+	top:100px;
+	z-index: -1;
+	position: absolute;
+	}
+
+
+.at {
+
+	left:370px;
+	top: 40px;
+	color: #2390af;
+	text-align: center;
+	font-family: 'Rubik Mono One', sans-serif;
+	font-size: 40px;
+	position: absolute;
+	z-index: 1;
+}
+
+.bacon1 {
+    position:absolute;
+    left: 200px;
+    top: 45px;
+    z-index: -1;
+}
+.bacon2 {
+    position:absolute;
+    left: 900px;
+    top: 45px;
+    z-index: -1;
+}
+
+
+h1 {
+
+	
+	left:265px;
+	top: 10px;
+	text-align: center;
+	font-family: 'Rubik Mono One', sans-serif;
+	font-size: 40px;
+	position: absolute;
+	z-index: 1;
+
+}
+
+h2{
+
+	left: 160px;
+	top: 370px;
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 20px;
+	position: absolute;
+	z-index: 1;
+
+}
+
+.about{
+	left:0px;
+	top: 80px;
+	text-align: center;
+	font-family: 'Rubik Mono One', sans-serif;
+	font-size: 20px;
+	position: absolute;
+	z-index: 5;
+	color: #2390af;
+}
+
+.insta{
+	left:280px;
+	top: 80px;
+	text-align: center;
+	font-family: 'Rubik Mono One', sans-serif;
+	font-size: 20px;
+	position: absolute;
+	z-index: 5;
+	color: #2390af;
+}
+
+.youtube{
+	left:600px;
+	top: 80px;
+	text-align: center;
+	font-family: 'Rubik Mono One', sans-serif;
+	font-size: 20px;
+	position: absolute;
+	z-index: 5;
+	color: #2390af;
+
+}
+
+.instagram{
+	top:900px;
+	position: absolute;
+}
+
+
+
+#rudr_instafeed{
+         list-style:none
+       }
+       #rudr_instafeed li{
+
+
+         float:left;
+         width:200px;
+         height:200px;
+         margin:10px
+       }
+       #rudr_instafeed li img{
+
+
+       	margin-bottom: -380px;
+         margin-top: 120px;
+         max-width:100%;
+         max-height:100%;
+       }

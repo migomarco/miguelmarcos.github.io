@@ -1,0 +1,51 @@
+body{
+  background-color: #f7dfa5;
+}
+.bacon1 {
+    position:absolute;
+    left: 250px;
+    top: 45px;
+    z-index: -1;
+}
+.bacon2 {
+    position:absolute;
+    left: 900px;
+    top: 45px;
+    z-index: -1;
+}
+/*.title1{
+  color:#ed008c;
+}
+.title3{
+  color:#ed008c;
+}
+.title5{
+  color:#ed008c;
+}*/
+
+
+/*.bacon2 {
+    position: absolute;
+    left: 290px;
+    top: 140px;
+    z-index: -1;
+}
+
+.bacon3 {
+    position: absolute;
+    left: 290px;
+    top: 580px;
+    z-index: -1;
+}*/
+
+h1{
+  color:#2390af;
+  font-family: 'Rubik Mono One', sans-serif;
+  font-size: 40px;
+}
+
+
+h2{
+  color:#ed4789;
+  font-family: sans-serif;
+}

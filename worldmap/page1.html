@@ -1,0 +1,274 @@
+
+<!doctype html>
+<html>
+    <head>
+        <title>Input/Output</title>
+
+        <style>
+            html, body{
+                width: 100%;
+                height: 100%;
+                /*background-image: url("board.jpg");*/
+           
+            }
+
+            h1 {
+                left: 80px;
+                font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+                color: white;
+            }
+
+            .board{
+            	position: absolute;
+            	z-index: -1;
+            	width:100%;
+            	height:100%;
+            	left:0px;
+            	top:0px;
+            }
+
+            .pin1 {
+            	position: absolute;
+            	z-index: 1px;
+            	left: 74%;
+            	top:73%;
+            	height: 50px;
+            	width: 60px;
+            }
+
+            .pin2 {
+            	position: absolute;
+            	z-index: 1px;
+            	left: 74%;
+            	top:10%;
+            	height: 50px;
+            	width: 60px;
+            }
+
+            .pin3 {
+            	position: absolute;
+            	z-index: 1px;
+            	left: 0%;
+            	top:10%;
+            	height: 50px;
+            	width: 60px;
+            }
+
+            .pin4 {
+            	position: absolute;
+            	z-index: 1px;
+            	left: 0%;
+            	top:73%;
+            	height: 50px;
+            	width: 60px;
+            }
+
+            .pin5 {
+            	position: absolute;
+            	z-index: 1px;
+            	left: 87%;
+            	top:65%;
+            	height: 50px;
+            	width: 60px;
+            }
+
+            .pin6 {
+            	position: absolute;
+            	z-index: 1px;
+            	left: 85%;
+            	top:58%;
+            	height: 50px;
+            	width: 60px;
+            }
+
+            #ear{
+
+            	z-index: 5px;
+            	position: absolute;
+
+            }
+
+            .ear{
+            	height: 50px;
+            	width: 30px;
+            }
+
+            
+
+
+
+
+
+
+        </style>
+    </head>
+
+    <body>
+        
+
+
+        <audio autoplay loop id="noise">
+            <source src="ppl.mp3">
+        </audio>
+
+        <h1> Move your cursor across the map to hear the human density.</h1>
+        <img src="populationw.jpg">
+        <img src="board.jpg" alt="Mountain View" class="board">
+
+        	<img src="pin.png" alt="Mountain View" class="pin1">
+        	<img src="pin.png" alt="Mountain View" class="pin2">
+        	<img src="pin.png" alt="Mountain View" class="pin3">
+        	<img src="pin.png" alt="Mountain View" class="pin4">
+        	<img src="pin.png" alt="Mountain View" class="pin5">
+        	<img src="pin.png" alt="Mountain View" class="pin6">
+
+
+
+        <div id="ear"> <img src="ear.png" alt="Mountain View" class="ear"> </div>
+
+
+
+        <script>
+
+        window.addEventListener("mousemove", function(e) {
+                console.log(e);
+
+                
+                var ear = document.getElementById("ear");
+
+                ear.style.top = e.clientY - 28 + "px";
+                ear.style.left = e.clientX - 25 + "px";
+
+            });
+         
+
+        window.addEventListener("mousemove", function(e) {
+            console.log(e);
+            //var noise = document.getElementById("noise");
+              //  noise.volume = "0." + e.clientX;
+
+            if (e.clientX > 693 && e.clientX < 754 && e.clientY > 232 && e.clientY < 313 ) {
+                noise.volume = 1;
+            } 
+
+            else if (e.clientX > 784 && e.clientX < 841 && e.clientY > 218 && e.clientY < 275 ) {
+                noise.volume = 1;
+            }
+
+            else if (e.clientX > 793 && e.clientX < 836 && e.clientY > 350 && e.clientY < 363 ) {
+                noise.volume = 0.9;
+            }
+
+            else if (e.clientX > 463 && e.clientX < 565 && e.clientY > 176 && e.clientY < 242 ) {
+                noise.volume = 0.7;
+            }
+
+            else if (e.clientX > 563 && e.clientX < 729 && e.clientY > 152 && e.clientY < 203 ) {
+                noise.volume = 0.35;
+            }
+
+            else if (e.clientX > 753 && e.clientX < 802 && e.clientY > 244 && e.clientY < 351 ) {
+                noise.volume = 0.8;
+            }
+
+            else if (e.clientX > 516 && e.clientX < 609 && e.clientY > 339 && e.clientY < 389 ) {
+                noise.volume = 0.4;
+            }
+
+            else if (e.clientX > 442 && e.clientX < 631 && e.clientY > 288 && e.clientY < 342 ) {
+                noise.volume = 0.6;
+            }
+
+            else if (e.clientX > 529 && e.clientX < 596 && e.clientY > 387 && e.clientY < 435 ) {
+                noise.volume = 0.2;
+            }
+
+            else if (e.clientX > 440 && e.clientX < 599 && e.clientY > 241 && e.clientY < 289 ) {
+                noise.volume = 0.1;
+            }
+
+            else if (e.clientX > 562 && e.clientX < 719 && e.clientY > 200 && e.clientY < 249 ) {
+                noise.volume = 0.65;
+            }
+
+            else if (e.clientX > 716 && e.clientX < 786 && e.clientY > 197 && e.clientY < 246 ) {
+                noise.volume = 0.25;
+            }
+
+            else if (e.clientX > 589 && e.clientX < 664 && e.clientY > 246 && e.clientY < 292 ) {
+                noise.volume = 0.45;
+            }
+
+            else if (e.clientX > 616 && e.clientX < 636 && e.clientY > 370 && e.clientY < 407 ) {
+                noise.volume = 0.46;
+            }
+
+            else if (e.clientX > 799 && e.clientX < 919 && e.clientY > 318 && e.clientY < 353 ) {
+                noise.volume = 0.34;
+            }
+
+            else if (e.clientX > 835 && e.clientX < 854 && e.clientY > 282 && e.clientY < 321 ) {
+                noise.volume = 0.84;
+            }
+
+            else if (e.clientX > 825 && e.clientX < 903 && e.clientY > 182 && e.clientY < 241 ) {
+                noise.volume = 0.8;
+            }
+
+            else if (e.clientX > 726 && e.clientX < 830 && e.clientY > 158 && e.clientY < 225 ) {
+                noise.volume = 0.2;
+            }
+
+            else if (e.clientX > 504 && e.clientX < 608 && e.clientY > 130 && e.clientY < 174 ) {
+                noise.volume = 0.13;
+            }
+
+            else if (e.clientX > 603 && e.clientX < 1008 && e.clientY > 110 && e.clientY < 170 ) {
+                noise.volume = 0.05;
+            }
+
+             else if (e.clientX > 817 && e.clientX < 934 && e.clientY > 376 && e.clientY < 448 ) {
+                noise.volume = 0.12;
+            }
+
+            else if (e.clientX > 209 && e.clientX < 295 && e.clientY > 192 && e.clientY < 247 ) {
+                noise.volume = 0.45;
+            }
+
+            else if (e.clientX > 133 && e.clientX < 209 && e.clientY > 182 && e.clientY < 247 ) {
+                noise.volume = 0.25;
+            }
+
+            else if (e.clientX > 174 && e.clientX < 304 && e.clientY > 245 && e.clientY < 318 ) {
+                noise.volume = 0.6;
+            }
+
+            else if (e.clientX > 256 && e.clientX < 320 && e.clientY > 314 && e.clientY < 494 ) {
+                noise.volume = 0.25;
+            }
+
+            else if (e.clientX > 319 && e.clientX < 394 && e.clientY > 314 && e.clientY < 450 ) {
+                noise.volume = 0.45;
+            }
+
+            else if (e.clientX > 6 && e.clientX < 439 && e.clientY > 94 && e.clientY < 195 ) {
+                noise.volume = 0.05;
+            }
+
+
+
+            else {
+                noise.volume = 0;
+            }
+
+            console.log(noise.volume)
+
+    
+
+
+        });
+
+        </script>
+    </body>
+</html>
+

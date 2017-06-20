@@ -1,0 +1,70 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>jQuery UI Draggable - Default functionality</title>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="style.css">
+  <style>
+  #draggable { width: 150px; height: 150px; padding: 0.5em; }
+  </style>
+  <style>
+body {
+    background-image: url("bedroom.jpg");
+    background-repeat: no-repeat;
+    background-position: left top;
+    margin-right: 200px;
+    background-attachment: fixed;
+    background-size: 1280px 800px;
+}
+</style>
+
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <script>
+  $( function() {
+    $( "#draggable" ).draggable();
+  } );
+  </script>
+</head>
+<body>
+ 
+<div id="draggable" class="">
+  <img src="playboy.jpg" class ="playboy"/>
+</div>
+ 
+ 
+</body>
+
+
+
+
+<script>
+  $( function() {
+    $( "#draggable1" ).draggable();
+  } );
+  </script>
+<body>
+ 
+<div id="draggable1" class="ui-widget-content1">
+  <img src="lamp.png" class ="lamp"/>
+</div>
+
+
+
+
+<script>
+  $( function() {
+    $( "#draggable2" ).draggable();
+  } );
+  </script>
+<body>
+ 
+<div id="draggable2" class="ui-widget-content2">
+  <img src="laptop.png" class ="laptop"/>
+</div>
+ 
+ 
+</body>
+</html>

@@ -1,0 +1,87 @@
+
+body {
+  background-color: #f7dfa5;
+
+}
+.logo {
+width: 20%;
+height: 35%;
+position: absolute;
+left: 575px;
+top: 0px;
+}
+
+h1 {
+  font-size: 40px;
+  font-family: 'Rubik Mono One', sans-serif;
+  letter-spacing: 3px;
+  position: absolute;
+  left: 515px;
+  top: 250px;
+
+}
+
+p {
+  font-size: 20px;
+  font-family: sans-serif;
+  letter-spacing: 1px;
+  position: absolute;
+  top: 370px;
+  margin-right: 350px;
+  margin-left: 350px;
+}
+
+.miguel {
+  width: 27%;
+  height: 55%;
+  position: absolute;
+  left: 300px;
+  top: 440px;
+
+}
+
+p1 {
+  font-size: 25px;
+  font-family: 'Rubik Mono One', sans-serif;
+  letter-spacing: 1px;
+  position: absolute;
+  left: 440px;
+  top: 520px;
+}
+
+
+.vitoria {
+  width: 27%;
+  height: 53%;
+  position: absolute;
+  left: 500px;
+  top: 440px;
+
+}
+
+p2 {
+  font-size: 25px;
+  font-family: 'Rubik Mono One', sans-serif;
+  letter-spacing: 1px;
+  position: absolute;
+  left: 635px;
+  top: 520px;
+}
+
+.claudia {
+    width: 25%;
+    height: 52%;
+    position: absolute;
+    left: 730px;
+    top: 450px;
+
+  }
+
+  p3 {
+    font-size: 25px;
+      font-family: 'Rubik Mono One', sans-serif;
+    letter-spacing: 1px;
+    position: absolute;
+    left: 845px;
+    top: 520px;
+  }

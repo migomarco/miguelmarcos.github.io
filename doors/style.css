@@ -1,0 +1,26 @@
+.giffy {
+	-ms-transform: rotate(-13deg); 
+    -webkit-transform: rotate(-13deg);
+    transform: rotate(-13deg);
+    width: 560px;
+    height: 250px;
+    position: absolute;
+    left: 100px;
+    top: 170px;
+
+}
+
+.lamp {
+	width:260px;
+	height:260px;
+}
+
+.playboy {
+	width:100px;
+	height:150px;
+}
+
+.laptop {
+	width:200px;
+	height:150px;
+}
